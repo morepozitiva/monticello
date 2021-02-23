@@ -87,6 +87,9 @@ header {
 .social {
     display: inline-block;
     margin: 10px;
+    @media screen and (max-width: 768px){
+        margin: 5px;
+    }
 }
 .social__link {
     width: 32px;
@@ -172,9 +175,13 @@ header {
     font-size: 8rem;
     margin: 0;
     padding: 0 20px;
+    
     @media screen and (max-width: 1024px) {  
         // margin-top: 30px;
         font-size: 4rem;
+}
+@media screen and (max-width: 768px){
+    font-size: 3rem;
 }
 }
 .subtitle {
@@ -182,11 +189,17 @@ header {
     padding: 0 20px;
     letter-spacing: 5px;
     margin: 0;
+    
     @media screen and (max-width: 1024px) {
         font-size: 1.4rem;
         max-width: 500px;
         padding: 10px;
         
+}
+@media screen and (max-width: 768px){
+    font-size: 1rem;
+    max-width: 400px;
+    padding: 10px;
 }
 }
 
@@ -605,6 +618,9 @@ dialog::backdrop {
         background: #0086bb;
         width: 100%;
         padding: 10px;
+        @media screen and (max-width: 768px){
+            padding: 40px;
+        }
     }
 }
 .pv-inner {
@@ -888,4 +904,7 @@ footer {
     padding: 40px;
   }
   
+}
+.panorama.pv-container {
+    width: 700px;
 }
