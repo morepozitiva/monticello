@@ -1,0 +1,4 @@
+node_modules
+# Игнорируем все файлы psd
+*.psd
+package-lock.json
