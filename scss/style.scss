@@ -211,7 +211,20 @@ h2 {
     }
 }
 
-
+.fixed-header {
+    position: fixed;
+    background-color: #0086bb;
+    z-index: 100;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 20%;
+    // top: 0;
+    // left: 0;
+    // width: 100%;
+}
 .title {
     padding: 0;
 }
@@ -951,6 +964,14 @@ h2 {
 
     .block-news-title {
         font-size: 18px;
+    }
+
+    .fixed-header {
+        visibility: hidden;
+        // padding: 0 20%;
+        // top: 0;
+        // left: 0;
+        // width: 100%;
     }
 
     .header__nav {
