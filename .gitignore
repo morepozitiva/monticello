@@ -1,4 +1,5 @@
 node_modules
+images_copy
 # Игнорируем все файлы psd
 *.psd
 package-lock.json
