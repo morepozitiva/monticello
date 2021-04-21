@@ -3,8 +3,8 @@ const app = Vue.createApp({
         return {
             name: null,
             email: null,
-            botToken: '1604692569:AAFI55YLrnSQNy6C_HGytBaywKe6dk5MxcI',
-            botID: '1604692569',
+            botToken: '1716116861:AAG5tRssEWKpgtvFoS8OeJwtlIE2HxTdnd4',
+            botID: '1716116861',
             chatID: '180739492'
         }
         },
